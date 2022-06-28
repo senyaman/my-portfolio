@@ -1,0 +1,100 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #FBFBFB;
+}
+
+.navigation .navbar {
+    background-color: #87805E;
+}
+
+.navigation .navbar a {
+    color: white;
+}
+
+.navigation .navbar .nav-link:hover {
+    color: #2C3639;
+}
+
+.navbar-brand {
+    color: white;
+    font-size: 2.0rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.about-me,
+.projects {
+    color: #444444;
+}
+
+.short-intro {
+    font-size: 19px;
+}
+
+.technologies {
+    color: white;
+    background-color: #87805E;
+}
+
+.about-me-heading,
+.project-heading,
+.hello-head,
+.technology-heading {
+    font-weight: 400;
+}
+
+.hello-head,
+.introduction {
+    color: white;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    background-color: #87805E;
+}
+
+.introduction .intro-icons a {
+    color: white;
+}
+
+.card {
+    margin-bottom: 25px;
+    width: 85%;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-body {
+    color: #444444;
+}
+
+.btn {
+    background-color: #87805E;
+    color: white;
+}
+
+.footer {
+    background-color: #87805E;
+    color: white;
+}
+
+.icons {
+    width: 100px;
+}
+
+.intro-icons a:hover {
+    color: #2C3639;
+}
+
+
+@media(max-width: 865px) {
+    .introduction {
+        text-align: center;
+    }
+}
